@@ -3,7 +3,13 @@ import { StreamBarcodeReader } from "vue-barcode-reader";
 import { ImageBarcodeReader } from "vue-barcode-reader";
 const onDecode =() =>{
     console.log('hi');
-    
+}
+const onLoaded = ()=>{
+  console.log('onLoad');
+}
+const onError = ()=>{
+  console.log('on error ');
+  
 }
 </script>
 
